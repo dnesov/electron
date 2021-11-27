@@ -18,6 +18,8 @@ function createWindow() {
         icon: './icon.ico'
     });
 
+    win.webContents.openDevTools()
+
     win.loadFile('./editor/dist/index.html');
     win.maximize();
     Menu.setApplicationMenu(null);

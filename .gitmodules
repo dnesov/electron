@@ -1,3 +1,3 @@
 [submodule "editor"]
 	path = editor
-	url = https://github.com/gdext/editor
+	url = git@github.com:dnesov/editor.git
